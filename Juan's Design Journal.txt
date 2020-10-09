@@ -1,0 +1,28 @@
+GAW2:
+Topic: Berlin:
+
+06.10.20
+- After receiving the topic I tried thinking on a variety of games, but either couldn't flesh out the idea or it felt too complex to develope in just a week.
+- Some of said ideas included climbing the Fernsehtrum... just because; wondering around the Berlin U-Bahn system; and digging game creating a tunnel under the Berlin wall.
+- I figured out that to develope a game in just a week I should think in just one mechanic and really focus on it.
+- Time to sleep came and I still didn't have an idea, I couldn't sleep because in the back of my mind I was still thinking on ideas... until an idea that really convinced me hit.
+- The idea has this background: In the era of the wall of Berlin tunnels were dug to escape from the east to the west, but they were held very secretive so the GDR authorities wouldn't catch them.
+- Generally information was given within circles of close friends and family and often wouldn't be direct and complete but was rather released in pieces. This is because many people could inform the authorities and the plan would be ruined, as well as the risk of stumbuling upon th Stasi (the GDR's secret police).
+- The game would then be a person in their home planning an escape; people would come to their door and be asked a question, if they deliver with the right answer within a code the player would have to give them a note with the right date, time and place; if they answer wrong they should give a decoy.
+- Also agents from the Stasi could come, instead of a decoy they should be given stasi propaganda.
+- I would like to make illustrations for the game, especially creating different endings depending on the amount of mistakes made (or rather just decissions taken).
+- Now is time to sleep.
+
+07.10.20
+- I was worried that I wouldn't be able to deliever with the art department if I would also had to deal with the code for the mechanics.
+- I shared ideas with friends to see what we all had. After this Gus and Lenny asked if I wanted to team up. I accepted their offer since they could take care of the game's code while I could for the first time in a project focus on the art.
+- Researched about the Tunnel 57, most successfull tunnel of the wall, and around which I wanted to make the plot
+- Did a flow diagram to explain the game to my teammates.
+
+08.10.20
+- We met to get a clearer explanation of the game's idea and to brainstorm over it.
+- Delivered the main game idea and loops.
+- We divided roles and created a to-do lists (I got in charge of the art, mainly the ending screens' illustrations).
+- We also made our repo and made a spreadsheet to put dialogs and story elements.
+- Thought about the different endings and wrote them down.
+- I started drawing sketches for the illustrations.
