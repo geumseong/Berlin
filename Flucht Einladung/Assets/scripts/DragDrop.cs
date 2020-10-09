@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class DragDrop : MonoBehaviour
 {
+    public GameObject guestManagerObj;
     public GameObject paperSlot;
     private bool moving;
 
@@ -30,7 +31,7 @@ public class DragDrop : MonoBehaviour
     }
 
     private void OnMouseDown(){
-        if (Input.GetMouseButtonDown(0)){
+        if (Input.GetMouseButtonDown(0) && guestManagerObj.GetComponent<GuestStateManager>().moving == false){
             Vector3 mousePos;
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
@@ -45,9 +46,12 @@ public class DragDrop : MonoBehaviour
     private void OnMouseUp(){
         moving = false;
 
-        if(Mathf.Abs(this.transform.localPosition.x - paperSlot.transform.localPosition.x) <= 1.5f 
+        if(Mathf.Abs(this.transform.localPosition.x - paperSlot.transform.localPosition.x) <= 2.5f 
         && Mathf.Abs(this.transform.localPosition.y - paperSlot.transform.localPosition.y) <= 1.5f) {
-            this.transform.localPosition = new Vector3(paperSlot.transform.localPosition.x, paperSlot.transform.localPosition.y, paperSlot.transform.localPosition.z);
+            guestManagerObj.GetComponent<GuestStateManager>().paperReceived = true;
+            guestManagerObj.GetComponent<GuestStateManager>().moving = true;
+            //this.transform.localPosition = new Vector3(paperSlot.transform.localPosition.x, paperSlot.transform.localPosition.y, paperSlot.transform.localPosition.z);
+            this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
         }
         else{
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
