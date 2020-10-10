@@ -1,4 +1,4 @@
-GAW2:
+Game-A-Week 2:
 Topic: Berlin:
 
 06.10.20
@@ -26,3 +26,7 @@ Topic: Berlin:
 - We also made our repo and made a spreadsheet to put dialogs and story elements.
 - Thought about the different endings and wrote them down.
 - I started drawing sketches for the illustrations.
+
+09.10.20
+- We met to track progress.
+- I mainly worked on finishing the sketches for the endscreen illustrations.
