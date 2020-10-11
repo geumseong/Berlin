@@ -11,7 +11,7 @@ public class GuestGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //GenerateGuest();
+        GenerateGuest();
     }
 
     // Update is called once per frame
