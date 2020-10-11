@@ -151,7 +151,7 @@ RectTransform:
   m_LocalScale: {x: 0.21637698, y: 0.21637698, z: 0.21637698}
   m_Children: []
   m_Father: {fileID: 969800411}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -0.148, y: 0.845, z: 7.5050006}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -274,6 +274,84 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30251608}
+  m_CullTransparentMesh: 0
+--- !u!1 &39438966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39438967}
+  - component: {fileID: 39438969}
+  - component: {fileID: 39438968}
+  m_Layer: 5
+  m_Name: TitleLeft 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &39438967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39438966}
+  m_LocalRotation: {x: -0.0004613097, y: 0.0074741943, z: 0.019140664, w: 0.99978876}
+  m_LocalPosition: {x: 0, y: 0, z: 0.6}
+  m_LocalScale: {x: 0.13820586, y: 0.12305548, z: 0.13822469}
+  m_Children: []
+  m_Father: {fileID: 673356890}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -0.148, y: 0.845, z: 7.5050006}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -34.4, y: -25.9}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &39438968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39438966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 4
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: Du Stasi
+--- !u!222 &39438969
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39438966}
   m_CullTransparentMesh: 0
 --- !u!1 &67121043
 GameObject:
@@ -888,7 +966,7 @@ RectTransform:
   m_LocalScale: {x: 4.136184, y: 2.498468, z: 2.318125}
   m_Children: []
   m_Father: {fileID: 808378765}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1770,7 +1848,7 @@ RectTransform:
   m_Children:
   - {fileID: 2108180715}
   m_Father: {fileID: 969800411}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2532,7 +2610,7 @@ RectTransform:
   m_LocalScale: {x: 1.1189, y: 1.1189, z: 1.1189}
   m_Children: []
   m_Father: {fileID: 969800411}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 6.8240004}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2645,9 +2723,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "The Code Question:\n\n- How did you get here?\n\t- Ask people how they
-    got to \n\t\tyour home, this is, which \n\t\tkind of transport they took. \n\t\tOnly
-    unrealistic answers \n\t\tshould get the correct\n\t\tinformation"
+  m_Text: 'Introduction:
+
+
+    The year is 1960.
+
+    A hole is dug up here in Berlin,
+
+    its
+    your job to ensure that the right
+
+    people get to that hole.
+
+    You need
+    to give the people of
+
+    Berlin a chance for democracie.
+
+    Good luck.'
 --- !u!222 &602464445
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2729,6 +2822,138 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631293020}
+  m_CullTransparentMesh: 0
+--- !u!1 &671883650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 671883651}
+  - component: {fileID: 671883652}
+  m_Layer: 5
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &671883651
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671883650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 808378765}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &671883652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671883650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b623de8c1d56524dbd20b936b91b572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achNote: {fileID: 673356889}
+  achActive: 0
+  achTitle: {fileID: 39438966}
+  achDesc: {fileID: 1307176467}
+  achDuStasiImage: {fileID: 722712626}
+  achEndTrigger: 1
+  achDuStasiCode: 0
+--- !u!1 &673356889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 673356890}
+  - component: {fileID: 673356892}
+  - component: {fileID: 673356891}
+  m_Layer: 5
+  m_Name: DuStasi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &673356890
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673356889}
+  m_LocalRotation: {x: -0, y: -0, z: 0.04634724, w: 0.99892545}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.5654, y: 1.7587268, z: 1.5654}
+  m_Children:
+  - {fileID: 722712627}
+  - {fileID: 39438967}
+  - {fileID: 1307176468}
+  m_Father: {fileID: 969800411}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.313}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -94.3, y: 39.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &673356891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673356889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &673356892
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 673356889}
   m_CullTransparentMesh: 0
 --- !u!1 &675573775
 GameObject:
@@ -2986,16 +3211,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 722712626}
-  m_LocalRotation: {x: -0, y: -0, z: 0.092902936, w: 0.9956752}
+  m_LocalRotation: {x: -0, y: -0, z: 0.007593708, w: 0.99997115}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1189, y: 1.1189, z: 1.1189}
+  m_LocalScale: {x: 0.71411073, y: 0.63689876, z: 0.7147693}
   m_Children: []
-  m_Father: {fileID: 969800411}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.661}
+  m_Father: {fileID: 673356890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0.87000006}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -91.3, y: 72.3}
+  m_AnchoredPosition: {x: 3.8144073, y: 16.244614}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722712628
@@ -3069,7 +3294,7 @@ RectTransform:
   - {fileID: 131900198}
   - {fileID: 169350053}
   m_Father: {fileID: 808378765}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3246,7 +3471,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &808378765
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3258,6 +3483,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0.55472}
   m_LocalScale: {x: 4.646458, y: 4.3110704, z: 4.646458}
   m_Children:
+  - {fileID: 671883651}
   - {fileID: 206863941}
   - {fileID: 969800411}
   - {fileID: 725745789}
@@ -3588,14 +3814,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1307176468}
   - {fileID: 26243547}
   - {fileID: 1128841256}
   - {fileID: 398643551}
-  - {fileID: 722712627}
   - {fileID: 598888865}
+  - {fileID: 673356890}
   m_Father: {fileID: 808378765}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3879,7 +4104,7 @@ RectTransform:
   m_Children:
   - {fileID: 843578637}
   m_Father: {fileID: 969800411}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4003,7 +4228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1140032840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4513,7 +4738,7 @@ GameObject:
   - component: {fileID: 1307176470}
   - component: {fileID: 1307176469}
   m_Layer: 5
-  m_Name: Text
+  m_Name: DescLeft 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4526,16 +4751,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307176467}
-  m_LocalRotation: {x: -0.0008072222, y: 0.0074447813, z: 0.065457545, w: 0.99782723}
-  m_LocalPosition: {x: 0, y: 0, z: 1.1}
-  m_LocalScale: {x: 0.21637698, y: 0.21637698, z: 0.21637698}
+  m_LocalRotation: {x: -0.0004613097, y: 0.0074741943, z: 0.019140664, w: 0.99978876}
+  m_LocalPosition: {x: 0, y: 0, z: 0.7}
+  m_LocalScale: {x: 0.13820586, y: 0.12305548, z: 0.13822469}
   m_Children: []
-  m_Father: {fileID: 969800411}
-  m_RootOrder: 0
+  m_Father: {fileID: 673356890}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.148, y: 0.845, z: 7.5050006}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -149.1, y: -10.8}
+  m_AnchoredPosition: {x: -37.7, y: -33.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1307176469
@@ -4570,7 +4795,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "-You were a Stasi agent,\n  always had been\n-Only give GDR propaganda"
+  m_Text: "-You were a Stasi agent,\n  always had been\n\n-Only give GDR propaganda"
 --- !u!222 &1307176470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4613,7 +4838,7 @@ RectTransform:
   - {fileID: 465120155}
   - {fileID: 375510962}
   m_Father: {fileID: 808378765}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4881,7 +5106,7 @@ RectTransform:
   - {fileID: 1227703192}
   - {fileID: 1935829342}
   m_Father: {fileID: 808378765}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6305,7 +6530,7 @@ RectTransform:
   - {fileID: 1966284360}
   - {fileID: 531724854}
   m_Father: {fileID: 808378765}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
