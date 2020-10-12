@@ -14,6 +14,18 @@ public class GuestStateManager : MonoBehaviour
     public int rightGuestCount;
     public int wrongGuestCount;
     public int totalGuestCount;
+    public int policeGuestCount;
+    public GameObject duStasiEnding;
+    public GameObject duStasiEnding2;
+    public GameObject duStasiEnding3;
+    public GameObject duStasiEnding4;
+    public GameObject duStasiEnding5;
+    public GameObject duStasiEnding6;
+    public GameObject duStasiEnding7;
+    public GameObject duStasiEnding8;
+    public GameObject duStasiEnding9;
+    public GameObject duStasiEnding10;
+    public GameObject mainMenuButton;
     public int rr;
     public int rd;
     public int rg;
@@ -37,6 +49,7 @@ public class GuestStateManager : MonoBehaviour
         rightGuestCount = 0;
         wrongGuestCount = 0;
         totalGuestCount = 0;
+        policeGuestCount = 0;
         rr = 0;
         rd = 0;
         rg = 0;
@@ -161,6 +174,85 @@ public class GuestStateManager : MonoBehaviour
         else
         {
             replyTextObj.SetActive(false);
+        }
+    }
+
+    public void ShowEnding(){
+        if(rr == 0 && rd == 0 && rg == 7 && wr == 0 && wd == 0 && wg == 13 && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 1;
+        }
+        else if(gr > 0) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding3.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 3;
+        }
+        else if(gd > 0) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding2.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 2;
+        }
+        else if(rr == 7 && rd == 0 && rg == 0 && wr == 13 && wd == 0 && wg == 0 && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding4.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 4;
+        }
+        else if(rr == 0 && rd == 7 && rg == 0 && wr == 0 && wd == 13 && wg == 0 && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding5.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 5;
+        }
+        else if(wg > 2 && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding6.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 6;
+        }
+        else if(wr > 2 && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding7.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 7;
+        }
+        else if(((rr < 7 && (rd > 0 || rg > 0)) || (wr == 1 || wr == 2)) && gr == 0 && gd == 0 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding8.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 8;
+        }
+        else if(rr == 7 && wd == 13 && gg == policeGuestCount) {
+            Debug.Log(gg +"gg + " + policeGuestCount + "police");
+            Debug.Log(rg +"rg");
+            Debug.Log(wg +"wg");
+            duStasiEnding9.SetActive(true);
+            mainMenuButton.SetActive(true);
+            GameObject.Find("CodeDecision").GetComponent<CodeDecision>().achDuStasiCount = 9;
+        }
+        else {
+            duStasiEnding10.SetActive(true);
+            mainMenuButton.SetActive(true);
         }
     }
 

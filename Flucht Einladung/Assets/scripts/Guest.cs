@@ -46,8 +46,11 @@ public class Guest : MonoBehaviour
                 guestStateObj.GetComponent<GuestStateManager>().wrongGuestCount++;
                 guestStateObj.GetComponent<GuestStateManager>().totalGuestCount++;
             }
+            if(guestStateObj.GetComponent<GuestStateManager>().guestStatus == false) {
+                guestStateObj.GetComponent<GuestStateManager>().policeGuestCount++;
+            }
             if(guestStateObj.GetComponent<GuestStateManager>().totalGuestCount < 20) {
-                if(Random.Range(1, 11) > 3) {
+                if(Random.Range(1, 11) > 2) {
                     if(Random.Range(1, 21) < 8) {
                         if(guestStateObj.GetComponent<GuestStateManager>().rightGuestCount < 7) {
                             GameObject newGuest = normalGuest;
@@ -78,7 +81,7 @@ public class Guest : MonoBehaviour
                         else if(guestStateObj.GetComponent<GuestStateManager>().rightGuestCount < 7) {
                             GameObject newGuest = normalGuest;
                             guestStateObj.GetComponent<GuestStateManager>().guestStatus = true;
-                            guestStateObj.GetComponent<GuestStateManager>().rightGuest = false;
+                            guestStateObj.GetComponent<GuestStateManager>().rightGuest = true;
                             guestStateObj.GetComponent<GuestStateManager>().SpawnGuest(newGuest);
                             Debug.Log(guestStateObj.GetComponent<GuestStateManager>().rightGuestCount +" : "+ guestStateObj.GetComponent<GuestStateManager>().wrongGuestCount);
                             //Debug.Log(guestStateObj.GetComponent<GuestStateManager>().totalGuestCount);
@@ -95,6 +98,7 @@ public class Guest : MonoBehaviour
             }
             else {
                 Debug.Log("Game Ended");
+                guestStateObj.GetComponent<GuestStateManager>().ShowEnding();
             }
             guestStateObj.GetComponent<GuestStateManager>().paperReceived = false;
             Destroy(gameObject);

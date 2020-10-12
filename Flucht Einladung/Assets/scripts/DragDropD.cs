@@ -117,7 +117,7 @@ public class DragDropD : MonoBehaviour
                     guestManagerObj.GetComponent<GuestStateManager>().gd
                     + "gd : " +
                     guestManagerObj.GetComponent<GuestStateManager>().gg
-                    + "wg"
+                    + "gg"
                 );
             }
             guestManagerObj.GetComponent<GuestStateManager>().paperReceived = true;

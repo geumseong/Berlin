@@ -7,6 +7,7 @@ public class CodeDecision : MonoBehaviour
 {
     public string option;
     public GameObject codeText;
+    public int achDuStasiCount;
 
     // Start is called before the first frame update
     void Start()
