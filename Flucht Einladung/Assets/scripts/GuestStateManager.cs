@@ -421,7 +421,7 @@ public class GuestStateManager : MonoBehaviour
                                 replyText.GetComponent<Text>().text = "Lenin Statue";
                                 break;
                             case 2:
-                                replyText.GetComponent<Text>().text = "Kremin";
+                                replyText.GetComponent<Text>().text = "Kremlin";
                                 break;
                             case 3:
                                 replyText.GetComponent<Text>().text = "Brandenburger Tor";
