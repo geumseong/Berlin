@@ -34,7 +34,7 @@ public class GlobalAchievements : MonoBehaviour
         achDuStasiImage.SetActive(true);
         achTitle.GetComponent<Text>().text = "Du Stasi";
         achDesc.GetComponent<Text>().text = @"-You were a Stasi agent,
-  always had been
+  always has been.
 
 - Only give GDR propaganda";
         achNote.SetActive(true);
