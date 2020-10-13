@@ -14,7 +14,8 @@ public class CodeDecision : MonoBehaviour
     {
         DontDestroyOnLoad(this);
 
-        switch(Random.Range(0, 6)) {
+        switch (Random.Range(0, 6))
+        {
             case 1:
                 Debug.Log("case 1");
                 option = "How did you get here?";
@@ -77,6 +78,6 @@ public class CodeDecision : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
