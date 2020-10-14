@@ -22,11 +22,27 @@ Topic: Berlin:
 08.10.20
 - We met to get a clearer explanation of the game's idea and to brainstorm over it.
 - Delivered the main game idea and loops.
-- We divided roles and created a to-do lists (I got in charge of the art, mainly the ending screens' illustrations).
+- We divided roles and created a to-do lists (I got in charge of the art, mainly the ending screens' illustrations, while Lenny made the other assets, at least until I could work on them).
 - We also made our repo and made a spreadsheet to put dialogs and story elements.
-- Thought about the different endings and wrote them down.
+- Thought about the different endings and wrote them down in the spreadsheet, organizing them in priority order codingwise.
 - I started drawing sketches for the illustrations.
 
 09.10.20
 - We met to track progress.
 - I mainly worked on finishing the sketches for the endscreen illustrations.
+
+10.10.20
+- Put the sketches into the project so they could work with them into incorporating the endingscreens in the game while the final illustrations were ready.
+- Mainly worked on shading the endscreen illustrations, focusing on characters to be noticeable.
+
+11.10.20
+- Finished flat shading of the illustrations and started working on blending it.
+
+12.10.20
+- Finished the endscreen illustrations, at this point my teammates had the code and mechanics of the game pretty much done.
+- Changed the sketches for the now finished illustrations.
+- Lenny had done all of the other art assests, so I just went over them, reworking most of them and overall just making the visuals more polished and the art more consistent.
+- I basically changed the typography and redrew the main gameplay scene and menu elements over Lenny's interations.
+- Tried the game one last to find out that the game pretty much breaks the second time you play it. However, it was to late to notify Gus, who was responsible for most of the code related to this, since he had already called it a day and went to sleep (this was already late at night).
+- Had to accept that the bugs were going to stay there and proceeded to make the final build of the game to upload it to itch.io.
+- I also made a quick logo for the app launcher and the itch banner.
